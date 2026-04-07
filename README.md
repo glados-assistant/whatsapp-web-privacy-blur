@@ -1,6 +1,6 @@
 # WhatsApp Web Privacy Blur
 
-A Chrome extension for WhatsApp Web privacy.
+A Chrome extension for privacy-friendly WhatsApp Web screen sharing and public use.
 
 ## Features
 - blur chat list
