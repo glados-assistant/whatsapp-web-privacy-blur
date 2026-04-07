@@ -1,0 +1,14 @@
+:root {
+  --wwpb-blur-amount: 10px;
+  --wwpb-blur-transition: 120ms ease;
+}
+
+.wwpb-blur {
+  filter: blur(var(--wwpb-blur-amount));
+  transition: filter var(--wwpb-blur-transition);
+}
+
+.wwpb-blur:hover,
+.wwpb-blur:focus-within {
+  filter: blur(0);
+}
