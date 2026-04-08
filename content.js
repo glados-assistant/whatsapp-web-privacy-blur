@@ -11,8 +11,9 @@ const GROUPS = {
     '[data-testid="cell-frame-container"]'
   ],
   blurChatDetail: [
-    '#main [data-testid="conversation-panel-body"]',
-    '#main div[role="application"]',
+    '#main .copyable-area',
+    '#main [role="row"]',
+    '#main ._amjv',
     '#main footer'
   ],
   blurNames: [
