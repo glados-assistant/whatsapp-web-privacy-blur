@@ -1,9 +1,11 @@
 {
   "manifest_version": 3,
   "name": "WhatsApp Web Privacy Blur",
-  "version": "2.0.0",
+  "version": "2.0.3",
   "description": "Blur WhatsApp Web chat list, chat content, and contact names for privacy.",
-  "permissions": ["storage"],
+  "permissions": [
+    "storage"
+  ],
   "host_permissions": [
     "https://web.whatsapp.com/*"
   ],
@@ -28,8 +30,12 @@
       "matches": [
         "https://web.whatsapp.com/*"
       ],
-      "css": ["styles.css"],
-      "js": ["content.js"],
+      "css": [
+        "styles.css"
+      ],
+      "js": [
+        "content.js"
+      ],
       "run_at": "document_idle"
     }
   ]
