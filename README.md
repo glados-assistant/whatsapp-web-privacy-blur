@@ -2,6 +2,10 @@
 
 A Chrome extension for privacy-friendly WhatsApp Web screen sharing and public use.
 
+## Preview
+
+![WhatsApp Web Privacy Blur preview](assets/preview.jpg)
+
 ## Features
 - blur chat list
 - blur chat detail / conversation area
